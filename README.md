@@ -1,6 +1,6 @@
 # Homework #3 (20 points)
 
-**DUE: Feb 28, 1:30ppm**
+**DUE: Feb 28, 6:00pm**
 
 Instructions:
 
