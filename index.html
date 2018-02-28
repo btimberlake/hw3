@@ -21,14 +21,26 @@
 
       <div class="row justify-content-between">
         <div class="col-sm-3">
+
           <div id="weather" class="card">
-            <img class="card-img-top bg-primary img-fluid" src="http://openweathermap.org/img/w/01d.png">
+            <img class="card-img-top bg-primary img-fluid" src="http://openweathermap.org/img/w/01n.png">
             <div class="card-body">
               <h4 class="card-title">Paris</h4>
-              <p class="card-text">It is 81 degrees outside.</p>
+              <p class="card-text">It is 40 degrees outside.</p>
               <a id="get_forecast" href="#" class="btn btn-primary">Get Current Temperature</a>
             </div>
           </div>
+          <br>
+          <div id="weather2" class="card">
+            <img class="card-img-bottom bg-primary img-fluid" src="http://openweathermap.org/img/w/01d.png">
+            <div class="card-body">
+              <h4 class="card-title2">ANTIPODE:  Auckland</h4>
+              <p class="card-text2">It is 80 degrees outside.</p>
+              <a id="get_forecast" href="#" class="btn btn-primary">Get Current Temperature</a>
+            </div>
+          </div>
+
+
         </div>
         <div class="col-sm-8">
           <p class="lead">Can you modify <code>weather.js</code> to display the current weather conditions outside?</p>
@@ -53,10 +65,10 @@
             <li><p><strong>6 points: Use your actual location to update the widget.</strong></p>
               <ul>
                 <li>Use the browser's <code>navigator.geolocation</code> object to obtain the
-                  user's actual real-time latitude and longitude. 
+                  user's actual real-time latitude and longitude.
                   <blockquote>You'll need to call the <code>getCurrentPosition()</code>
                   function and provide a callback function in order to receive the user's latitude and longitude data.
-                    </blockquote
+                  </blockquote>
               </li>
                 <li>When you're finished, both the temperature and city name should reflect the your location and
                 current weather.</li>
